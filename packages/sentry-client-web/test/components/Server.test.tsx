@@ -22,7 +22,7 @@ describe("Server", () => {
 		};
 
 		const component = renderer.create(
-			<Server server={server} index={0} />
+			<Server data={server} index={0} />
 		);
 
 		const tree = component.toJSON();
